@@ -1,0 +1,35 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .drop-zone-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .file-list-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .file-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .file-item {
+    margin-bottom: 5px;
+  }
+  
